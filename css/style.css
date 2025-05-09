@@ -40,7 +40,7 @@ html {
 header.hero {
     width: 100%;
     height: 100vh;
-    background: url(/image/background.jpg);
+    background: url(/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
