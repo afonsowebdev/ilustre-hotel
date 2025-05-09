@@ -7,6 +7,7 @@
     <meta name="description" content="Website moderno e responsivo para hotel, criado como projeto de portfólio">
     <meta name="author" content="Francisco Afonso">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <title>Ilustre Hotel</title>
 </head>
@@ -35,42 +36,34 @@
     </header>
 
     <main>
-        <div class="check-in-check-out">
-            <form action="" class="form">
-                <div class="input-group">
-                    <label for="check-in">Check-in</label>
-                    <input type="date" name="check-in" id="check-in">
-                </div>
-                
-                <div class="input-group">
-                    <label for="check-out">Check-out</label>
-                    <input type="date" name="check-out" id="check-out">
-                </div>
-                
-                <div class="input-group">
-                    <label for="adulto">Adultos</label>
-                    <input type="number" name="adulto" id="adulto">
-                </div>
-                
-                <div class="input-group">
-                    <label for="crianca">Crianças</label>
-                    <input type="number" name="crianca" id="crianca">
-                </div>
-                
-                <div class="grup-input-btn">
-                    <input type="submit" value="pesquisar" class="btn">
-                </div>
-            </form>
+        <div class="form-container">
+            <div class="input-group">
+                <input type="date" name="check-in" id="" placeholder="nome">
+            </div>
+
+            <div class="input-group">
+                <input type="date" name="check-out" id="">
+            </div>
+
+            <div class="input-group">
+                <input type="number" name="adulto" id="">
+            </div>
+
+            <div class="input-group">
+                <input type="number" name="crianca" id="">
+            </div>
+
+            <button type="submit">Pesquisar</button>
         </div>
 
         <section class="quartos" id="quartos">
             <h2 class="quarto-subtitle">Quartos</h2>
-            <a href="#" class="btn">Ver</a>
+            <a href="#" class="btn">Reservar</a>
         </section>
 
         <section class="cardapios" id="cardapios">
             <h2 class="cardapio-subtitle">Cardápio</h2>
-            <a href="#" class="btn">Reservar</a>
+            <a href="#" class="btn">ver</a>
         </section>
 
         <section class="eventos" id="eventos">
